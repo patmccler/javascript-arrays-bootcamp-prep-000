@@ -37,3 +37,10 @@ function removeElementFromBeginningOfArray(array) {
   new_array = array.slice(array.length - 2)
    return new_array
 }
+
+function removeElementFromEndOfArray(array) {
+  new_array = array.slice(1)
+    return new_array
+}
+
+
